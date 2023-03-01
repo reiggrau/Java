@@ -1,0 +1,19 @@
+https://learningpenguin.net/2022/05/26/how-to-set-up-visual-studio-code-for-java-development-in-ubuntu/
+
+## How to setup VScode for Java in Ubuntu ##
+
+1) Install Extension Pack for Java
+Click the Extensions icon on the left, then type “Java” in the search box and install Extension Pack for Java.
+
+2) Install a Java JDK
+(how to install the prebuilt OpenJDK in Ubuntu 22.04 LTS and how to configure it to work with VS Code.)
+
+a) In Ubuntu, launch a terminal window then run the following command: sudo apt install openjdk-17-jdk
+
+b) After OpenJDK-17 is installed, in the same terminal, run the following command: export JAVA_HOME=/usr/lib/jvm/java-1.17.0-openjdk-amd64
+
+c) In the terminal, run the following command to set up PATH: export PATH=$PATH:$JAVA_HOME/bin
+
+d) To verify the installation of OpenJDK, run the following command: java -version
+
+
